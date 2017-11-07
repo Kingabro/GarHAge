@@ -1,0 +1,3 @@
+/*Sensors */
+String GarageSwitch1 "Door Status [%S]" <garagedoor> (Sensors) {mqtt="<[mosquitto:garage/door/1/status:state:default]"}
+Switch GarageRelay1 "Garage Door" <garagedoor> (All) {mqtt=">[mosquitto:garage/door/1/action:command:ON:OPEN]"}

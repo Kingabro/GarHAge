@@ -1,0 +1,7 @@
+sitemap garage label="Garage Door" {
+   Frame label="Garage" {
+      Text item=GarageSwitch1
+      Switch item=GarageRelay1 mappings=[ON="Go!"]
+   }
+   
+}
